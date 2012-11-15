@@ -48,7 +48,7 @@ public class Resource {
      * This variable contains the information of username, by whom the resource
      * is modified.
      */
-    private String resourceModifiedby;
+    private String resourceModifiedBy;
 
     public String getResourceAuthor() {
         return resourceAuthor;
@@ -90,12 +90,12 @@ public class Resource {
         this.resourceModifiedOn = resourceModifiedOn;
     }
 
-    public String getResourceModifiedby() {
-        return resourceModifiedby;
+    public String getResourceModifiedBy() {
+        return resourceModifiedBy;
     }
 
-    public void setResourceModifiedby(String resourceModifiedby) {
-        this.resourceModifiedby = resourceModifiedby;
+    public void setResourceModifiedBy(String resourceModifiedBy) {
+        this.resourceModifiedBy = resourceModifiedBy;
     }
 
     public String getResourceName() {
