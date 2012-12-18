@@ -23,18 +23,18 @@ public class ResourceMeta {
     /**
      * This variable is auto-increment for meta table 
      */
-    private int metaId;
+    private Integer metaId;
     
     /**
      * This is the foreign key of Resource bean
      */
-    private int resourceId;
+    private Integer resourceId;
 
-    public int getMetaId() {
+    public Integer getMetaId() {
         return metaId;
     }
 
-    public void setMetaId(int metaId) {
+    public void setMetaId(Integer metaId) {
         this.metaId = metaId;
     }
 
@@ -54,11 +54,11 @@ public class ResourceMeta {
         this.metaValue = metaValue;
     }
 
-    public int getResourceId() {
+    public Integer getResourceId() {
         return resourceId;
     }
 
-    public void setResourceId(int resourceId) {
+    public void setResourceId(Integer resourceId) {
         this.resourceId = resourceId;
     }
 }

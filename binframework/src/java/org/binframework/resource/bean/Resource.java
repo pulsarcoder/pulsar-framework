@@ -14,7 +14,7 @@ public class Resource {
     /**
      * this id will be the auto incremented one.
      */
-    private int resourceId;
+    private Integer resourceId;
     /**
      * This variable holds the name of the resource.
      */
@@ -78,7 +78,7 @@ public class Resource {
         return resourceId;
     }
 
-    public void setResourceId(int resourceId) {
+    public void setResourceId(Integer resourceId) {
         this.resourceId = resourceId;
     }
 
